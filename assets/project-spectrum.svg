@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Shubhendra Gautam's engineering spectrum</title>
+  <desc id="desc">Four connected project areas: hardware, ML runtimes, simulation, and agent infrastructure.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a39"/><stop offset="1" stop-color="#132d47"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#43e5ce"/><stop offset=".35" stop-color="#8b7cff"/><stop offset=".7" stop-color="#ff70ad"/><stop offset="1" stop-color="#ffc36f"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020714" flood-opacity=".4"/></filter>
+  </defs>
+  <rect width="1200" height="250" rx="22" fill="#09142f"/>
+  <path d="M140 202H1060" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(55 36)">
+      <rect width="250" height="150" rx="18" fill="url(#panel)" stroke="#48e6d0" stroke-opacity=".7"/>
+      <text x="22" y="35" fill="#55ead5" font-size="13" font-weight="700" letter-spacing="2">HARDWARE</text>
+      <text x="22" y="72" fill="#fff" font-size="25" font-weight="750">atomiX</text>
+      <text x="22" y="102" fill="#b9c9df" font-size="15">RISC-V · FPGA · aXos</text>
+      <text x="22" y="127" fill="#8196b5" font-size="13">from RTL to physical silicon</text>
+    </g>
+    <g transform="translate(335 36)">
+      <rect width="250" height="150" rx="18" fill="url(#panel)" stroke="#9589ff" stroke-opacity=".75"/>
+      <text x="22" y="35" fill="#a99fff" font-size="13" font-weight="700" letter-spacing="2">ML RUNTIME</text>
+      <text x="22" y="72" fill="#fff" font-size="25" font-weight="750">DRANZER</text>
+      <text x="22" y="102" fill="#b9c9df" font-size="15">C · SIMD · PTX</text>
+      <text x="22" y="127" fill="#8196b5" font-size="13">the transformer below frameworks</text>
+    </g>
+    <g transform="translate(615 36)">
+      <rect width="250" height="150" rx="18" fill="url(#panel)" stroke="#ff78b1" stroke-opacity=".75"/>
+      <text x="22" y="35" fill="#ff8cbd" font-size="13" font-weight="700" letter-spacing="2">SIMULATION</text>
+      <text x="22" y="72" fill="#fff" font-size="25" font-weight="750">Human-Sim</text>
+      <text x="22" y="102" fill="#b9c9df" font-size="15">Python · React · experiments</text>
+      <text x="22" y="127" fill="#8196b5" font-size="13">emergence measured across seeds</text>
+    </g>
+    <g transform="translate(895 36)">
+      <rect width="250" height="150" rx="18" fill="url(#panel)" stroke="#ffc36f" stroke-opacity=".75"/>
+      <text x="22" y="35" fill="#ffd18c" font-size="13" font-weight="700" letter-spacing="2">AGENT INFRA</text>
+      <text x="22" y="72" fill="#fff" font-size="25" font-weight="750">AI Cohort</text>
+      <text x="22" y="102" fill="#b9c9df" font-size="15">Node · Postgres · Ed25519</text>
+      <text x="22" y="127" fill="#8196b5" font-size="13">attributable collaboration</text>
+    </g>
+  </g>
+  <g fill="#09142f" stroke-width="4">
+    <circle cx="180" cy="202" r="9" stroke="#43e5ce"/><circle cx="460" cy="202" r="9" stroke="#8b7cff"/>
+    <circle cx="740" cy="202" r="9" stroke="#ff70ad"/><circle cx="1020" cy="202" r="9" stroke="#ffc36f"/>
+  </g>
+</svg>
