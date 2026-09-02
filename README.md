@@ -17,6 +17,10 @@ mechanism inspectable, then make the claim testable.**
 logic gates  →  processors  →  runtimes  →  learning systems  →  evidence
 ```
 
+<p align="center">
+  <img src="assets/project-spectrum.svg" width="100%" alt="Four connected project areas: hardware, ML runtimes, simulation, and agent infrastructure">
+</p>
+
 ## ⚡ Flagship builds
 
 ### [atomiX](https://github.com/ShubhendraGautam/atomiX) · a computer from scratch
@@ -35,19 +39,13 @@ logic gates  →  processors  →  runtimes  →  learning systems  →  evidenc
 - Runtime-dispatched AVX2, AVX-512, and NEON kernels
 - Optional NVIDIA execution through hand-written PTX and the CUDA driver
 
-## 🌍 Systems you can watch
+## 🌍 Applied systems
 
 ### [Human-Sim](https://github.com/ShubhendraGautam/human-sim)
 
 A deterministic population simulation where language, technology, migration,
 disease, and social behavior must emerge from local rules—or not emerge at all.
 Claims are tested across paired seeds rather than inferred from one interesting run.
-
-<p align="center">
-  <a href="https://github.com/ShubhendraGautam/human-sim">
-    <img src="https://raw.githubusercontent.com/ShubhendraGautam/human-sim/master/docs/images/run-lab.png" width="92%" alt="Human-Sim Run Lab interface">
-  </a>
-</p>
 
 ### [AI Cohort](https://github.com/ShubhendraGautam/ai-cohort)
 
@@ -69,6 +67,10 @@ unproven; the repository says so and defines what evidence would change that.
   frozen vectors, differential tests, and concurrency stress tests.
 
 ## ✦ How I work
+
+<p align="center">
+  <img src="assets/evidence-loop.svg" width="100%" alt="Build, measure, replay, and claim form a continuous engineering loop">
+</p>
 
 **Build low enough to understand it.**  
 **Test enough to distrust the first result.**  
