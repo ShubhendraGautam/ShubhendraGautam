@@ -23,7 +23,7 @@ logic gates  →  processors  →  runtimes  →  learning systems  →  evidenc
 
 ## ⚡ Flagship builds
 
-### [atomiX](https://github.com/ShubhendraGautam/atomiX) · a computer from scratch
+### [atomiX](https://github.com/Scynth-Labs/atomiX) · a computer from scratch
 
 > Five-stage RV32IM CPU → SoC → bare-metal runtime → aXos → physical FPGA
 
@@ -31,7 +31,7 @@ logic gates  →  processors  →  runtimes  →  learning systems  →  evidenc
 - Sv32 with machine, supervisor, and user modes
 - Verified CPU, GPU-compute, and TPU-lite workloads on physical FPGA hardware
 
-### [DRANZER](https://github.com/ShubhendraGautam/DRANZER) · a transformer below the framework layer
+### [DRANZER](https://github.com/Scynth-Labs/DRANZER) · a transformer below the framework layer
 
 > Tokenizer → attention → hand-derived backprop → AdamW → SIMD / PTX execution
 
@@ -62,7 +62,7 @@ unproven; the repository says so and defines what evidence would change that.
 - **[Xplanyexez](https://github.com/ShubhendraGautam/xplanyexez)** — builds
   evidence-backed hardware inventories with provenance, isolated probes, and
   privacy-preserving defaults.
-- **[gator-tools](https://github.com/ShubhendraGautam/gator-tools)** — shared
+- **[gator-tools](https://github.com/Scynth-Labs/gator-tools)** — shared
   multi-agent coordination plus a cross-language canonical JSON contract,
   frozen vectors, differential tests, and concurrency stress tests.
 
